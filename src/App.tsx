@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import heroImg from './assets/hero.png'
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           </div>
         </div>
         <div className="hero-media">
-          <img src={heroImg} alt="Donkart hero" />
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80" alt="Donkart hero" />
         </div>
       </main>
 
