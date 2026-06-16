@@ -182,3 +182,83 @@
     border-right-color: var(--border);
   }
 }
+
+/* Donkart welcome UI styles */
+.donkart-app {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: var(--text, #111);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  border-bottom: 1px solid var(--border, #e6e6e6);
+  background: var(--bg, #fff);
+}
+.site-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+.site-nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: var(--text, #111);
+}
+.hero-section {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 48px 28px;
+}
+.hero-content h1 {
+  font-size: 36px;
+  margin: 0 0 12px 0;
+}
+.tagline {
+  margin: 0 0 18px 0;
+  color: #555;
+}
+.cta-row .btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.btn.primary {
+  background: #0b76ef;
+  color: white;
+}
+.btn.outline {
+  background: transparent;
+  border-color: #ccc;
+}
+.hero-media img {
+  width: 240px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 24px 28px;
+}
+.feature {
+  flex: 1 1 0;
+  background: var(--feature-bg, #fafafa);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+.site-footer {
+  margin-top: auto;
+  padding: 18px 28px;
+  border-top: 1px solid var(--border, #e6e6e6);
+  text-align: center;
+  color: #666;
+}
